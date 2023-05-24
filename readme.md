@@ -6,7 +6,7 @@ Helper class for using the new Paytrail API.
 This class is designed to be used on websites, that don't have the ability to use composer and want a custom solution for payments. This class does not wrap around the entire **create payment** endpoint, but instead gives you a more clear view on how payments are created. At least I hope so.
 
 ## Example
-```
+```php
 require_once('paytrail.class.php');
 
 $merchant_id = '375917';
